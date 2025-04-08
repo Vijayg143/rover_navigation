@@ -1,0 +1,16 @@
+digraph G {
+"base_link" -> "left_front_1"[label=" Broadcaster: default_authority\nAverage rate: 110.379\nBuffer length: 5.01\nMost recent transform: 218.809\nOldest transform: 213.799\n"];
+"odom" -> "base_link"[label=" Broadcaster: default_authority\nAverage rate: 100.2\nBuffer length: 5.01\nMost recent transform: 218.809\nOldest transform: 213.799\n"];
+"map" -> "odom"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"base_link" -> "right_front_1"[label=" Broadcaster: default_authority\nAverage rate: 110.379\nBuffer length: 5.01\nMost recent transform: 218.809\nOldest transform: 213.799\n"];
+"base_link" -> "lidar_1"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"base_link" -> "cam_1"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"base_link" -> "imu_1"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"base_link" -> "gps_1"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"base_link" -> "left_back_1"[label=" Broadcaster: default_authority\nAverage rate: 110.379\nBuffer length: 5.01\nMost recent transform: 218.809\nOldest transform: 213.799\n"];
+"base_link" -> "right_back_1"[label=" Broadcaster: default_authority\nAverage rate: 110.379\nBuffer length: 5.01\nMost recent transform: 218.809\nOldest transform: 213.799\n"];
+edge [style=invis];
+ subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
+"Recorded at time: 1742660018.7298234"[ shape=plaintext ] ;
+}->"map";
+}

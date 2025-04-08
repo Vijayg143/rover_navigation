@@ -1,0 +1,171 @@
+[0.000000] (-) TimerEvent: {}
+[0.000243] (k12_description) JobQueued: {'identifier': 'k12_description', 'dependencies': OrderedDict()}
+[0.000529] (k12_description) JobStarted: {'identifier': 'k12_description'}
+[0.005155] (k12_description) JobProgress: {'identifier': 'k12_description', 'progress': 'cmake'}
+[0.005820] (k12_description) Command: {'cmd': ['/usr/bin/cmake', '/home/vijay/roverr_ws/src/k12_description', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/vijay/roverr_ws/install/k12_description'], 'cwd': '/home/vijay/roverr_ws/build/k12_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'vijay'), ('LC_TIME', 'en_IN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/vijay'), ('OLDPWD', '/home/vijay/roverr_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_IN.UTF-8'), ('SYSTEMD_EXEC_PID', '1877'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/vijay/roverr_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'vijay'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vijay'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/home/vijay/rover4_ws/src/k12_description/models/'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/vijay/.cargo/bin:/home/vijay/.local/bin:/home/vijay/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/vijay:@/tmp/.ICE-unix/1847,unix/vijay:/tmp/.ICE-unix/1847'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_IN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/79664485_5da8_4d14_bbd8_8198ceb6b1e7'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_IN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.21YD42'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.104'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/vijay/roverr_ws/install/k12_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_IN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_IN.UTF-8'), ('LC_IDENTIFICATION', 'en_IN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vijay/roverr_ws/build/k12_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/vijay/roverr_ws/install/k12_description/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_IN.UTF-8'), ('LC_PAPER', 'en_IN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/vijay/roverr_ws/install/k12_description:/opt/ros/humble')]), 'shell': False}
+[0.017295] (k12_description) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099753] (k12_description) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.099863] (-) TimerEvent: {}
+[0.105919] (k12_description) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.125638] (k12_description) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.126943] (k12_description) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.130329] (k12_description) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.135462] (k12_description) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.142219] (k12_description) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.159716] (k12_description) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.160400] (k12_description) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.200046] (-) TimerEvent: {}
+[0.228089] (k12_description) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.255342] (k12_description) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.262074] (k12_description) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.271189] (k12_description) StdoutLine: {'line': b'-- Found gazebo_ros: 3.9.0 (/opt/ros/humble/share/gazebo_ros/cmake)\n'}
+[0.294510] (k12_description) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[0.300191] (-) TimerEvent: {}
+[0.311657] (k12_description) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[0.312343] (k12_description) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[0.315031] (k12_description) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[0.315840] (k12_description) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[0.319375] (k12_description) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[0.319516] (k12_description) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[0.325489] (k12_description) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[0.325697] (k12_description) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[0.325853] (k12_description) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[0.325916] (k12_description) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[0.325973] (k12_description) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[0.326206] (k12_description) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[0.326313] (k12_description) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[0.326345] (k12_description) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[0.326372] (k12_description) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[0.326396] (k12_description) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[0.326425] (k12_description) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[0.326450] (k12_description) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[0.389203] (k12_description) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[0.389316] (k12_description) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.2.1\n'}
+[0.389470] (k12_description) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[0.400386] (-) TimerEvent: {}
+[0.401341] (k12_description) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") \n'}
+[0.408403] (k12_description) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[0.412272] (k12_description) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[0.422942] (k12_description) StdoutLine: {'line': b'--   Found libzmq , version 4.3.4\n'}
+[0.464781] (k12_description) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[0.483626] (k12_description) StdoutLine: {'line': b'--   Found uuid, version 2.37.2\n'}
+[0.500496] (-) TimerEvent: {}
+[0.531173] (k12_description) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[0.531943] (k12_description) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[0.546902] (k12_description) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[0.550976] (k12_description) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[0.562308] (k12_description) StdoutLine: {'line': b'--   Found tinyxml2, version 9.0.0\n'}
+[0.600639] (-) TimerEvent: {}
+[0.604422] (k12_description) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[0.604916] (k12_description) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[0.605802] (k12_description) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[0.605989] (k12_description) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[0.606058] (k12_description) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[0.618272] (k12_description) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[0.618597] (k12_description) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.14.0\n'}
+[0.619030] (k12_description) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[0.619361] (k12_description) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[0.620159] (k12_description) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.4.0\n'}
+[0.620574] (k12_description) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[0.649754] (k12_description) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[0.661385] (k12_description) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[0.700789] (-) TimerEvent: {}
+[0.709353] (k12_description) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[0.725090] (k12_description) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[0.774328] (k12_description) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[0.774756] (k12_description) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[0.775510] (k12_description) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[0.777388] (k12_description) StdoutLine: {'line': b'-- Gazebo version: 11.10\n'}
+[0.778838] (k12_description) StdoutLine: {'line': b'-- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)\n'}
+[0.792808] (k12_description) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.12 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[0.800996] (-) TimerEvent: {}
+[0.837046] (k12_description) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.901239] (-) TimerEvent: {}
+[0.908449] (k12_description) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.908593] (k12_description) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/vijay/roverr_ws/src/k12_description/include\n'}
+[0.908657] (k12_description) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.908784] (k12_description) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[0.908957] (k12_description) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.909167] (k12_description) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[0.909899] (k12_description) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.910038] (k12_description) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.910247] (k12_description) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.910788] (k12_description) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.916378] (k12_description) StdoutLine: {'line': b'-- Generating done\n'}
+[0.918645] (k12_description) StdoutLine: {'line': b'-- Build files have been written to: /home/vijay/roverr_ws/build/k12_description\n'}
+[0.925805] (k12_description) CommandEnded: {'returncode': 0}
+[0.927425] (k12_description) JobProgress: {'identifier': 'k12_description', 'progress': 'build'}
+[0.927492] (k12_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/vijay/roverr_ws/build/k12_description', '--', '-j12', '-l12'], 'cwd': '/home/vijay/roverr_ws/build/k12_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'vijay'), ('LC_TIME', 'en_IN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/vijay'), ('OLDPWD', '/home/vijay/roverr_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_IN.UTF-8'), ('SYSTEMD_EXEC_PID', '1877'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/vijay/roverr_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'vijay'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vijay'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/home/vijay/rover4_ws/src/k12_description/models/'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/vijay/.cargo/bin:/home/vijay/.local/bin:/home/vijay/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/vijay:@/tmp/.ICE-unix/1847,unix/vijay:/tmp/.ICE-unix/1847'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_IN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/79664485_5da8_4d14_bbd8_8198ceb6b1e7'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_IN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.21YD42'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.104'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/vijay/roverr_ws/install/k12_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_IN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_IN.UTF-8'), ('LC_IDENTIFICATION', 'en_IN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vijay/roverr_ws/build/k12_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/vijay/roverr_ws/install/k12_description/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_IN.UTF-8'), ('LC_PAPER', 'en_IN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/vijay/roverr_ws/install/k12_description:/opt/ros/humble')]), 'shell': False}
+[0.968699] (k12_description) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/teleop_control.dir/src/teleop_control.cpp.o\x1b[0m\n'}
+[1.001389] (-) TimerEvent: {}
+[1.101769] (-) TimerEvent: {}
+[1.202172] (-) TimerEvent: {}
+[1.302574] (-) TimerEvent: {}
+[1.402983] (-) TimerEvent: {}
+[1.503409] (-) TimerEvent: {}
+[1.603831] (-) TimerEvent: {}
+[1.704228] (-) TimerEvent: {}
+[1.804703] (-) TimerEvent: {}
+[1.905106] (-) TimerEvent: {}
+[2.005500] (-) TimerEvent: {}
+[2.105899] (-) TimerEvent: {}
+[2.206311] (-) TimerEvent: {}
+[2.306709] (-) TimerEvent: {}
+[2.407118] (-) TimerEvent: {}
+[2.507514] (-) TimerEvent: {}
+[2.607915] (-) TimerEvent: {}
+[2.708326] (-) TimerEvent: {}
+[2.808743] (-) TimerEvent: {}
+[2.909131] (-) TimerEvent: {}
+[3.009535] (-) TimerEvent: {}
+[3.109924] (-) TimerEvent: {}
+[3.210318] (-) TimerEvent: {}
+[3.310695] (-) TimerEvent: {}
+[3.367670] (k12_description) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable teleop_control\x1b[0m\n'}
+[3.410939] (-) TimerEvent: {}
+[3.503971] (k12_description) StdoutLine: {'line': b'[100%] Built target teleop_control\n'}
+[3.511118] (-) TimerEvent: {}
+[3.512379] (k12_description) CommandEnded: {'returncode': 0}
+[3.513255] (k12_description) JobProgress: {'identifier': 'k12_description', 'progress': 'install'}
+[3.520737] (k12_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/vijay/roverr_ws/build/k12_description'], 'cwd': '/home/vijay/roverr_ws/build/k12_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'vijay'), ('LC_TIME', 'en_IN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/vijay'), ('OLDPWD', '/home/vijay/roverr_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_IN.UTF-8'), ('SYSTEMD_EXEC_PID', '1877'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/vijay/roverr_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'vijay'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vijay'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/home/vijay/rover4_ws/src/k12_description/models/'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/vijay/.cargo/bin:/home/vijay/.local/bin:/home/vijay/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/vijay:@/tmp/.ICE-unix/1847,unix/vijay:/tmp/.ICE-unix/1847'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_IN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/79664485_5da8_4d14_bbd8_8198ceb6b1e7'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_IN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.21YD42'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.104'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/vijay/roverr_ws/install/k12_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_IN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_IN.UTF-8'), ('LC_IDENTIFICATION', 'en_IN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vijay/roverr_ws/build/k12_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/vijay/roverr_ws/install/k12_description/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_IN.UTF-8'), ('LC_PAPER', 'en_IN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/vijay/roverr_ws/install/k12_description:/opt/ros/humble')]), 'shell': False}
+[3.526175] (k12_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.526349] (k12_description) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[3.526535] (k12_description) StdoutLine: {'line': b'-- Symlinking: /home/vijay/roverr_ws/install/k12_description/lib/k12_description/teleop_control\n'}
+[3.534182] (k12_description) StdoutLine: {'line': b'-- Symlinking: /home/vijay/roverr_ws/install/k12_description/share/k12_description/launch/display.launch.py\n'}
+[3.539480] (k12_description) StdoutLine: {'line': b'-- Symlinking: /home/vijay/roverr_ws/install/k12_description/share/k12_description/launch/gazebo.launch.py\n'}
+[3.545097] (k12_description) StdoutLine: {'line': b'-- Symlinking: /home/vijay/roverr_ws/install/k12_description/share/k12_description/launch/navigation.launch.py\n'}
+[3.551322] (k12_description) StdoutLine: {'line': b'-- Symlinking: /home/vijay/roverr_ws/install/k12_description/share/k12_description/launch/online_async.launch.py\n'}
+[3.559132] (k12_description) StdoutLine: {'line': b'-- Symlinking: /home/vijay/roverr_ws/install/k12_description/share/k12_description/meshes/base_link.stl\n'}
+[3.568879] (k12_description) StdoutLine: {'line': b'-- Symlinking: /home/vijay/roverr_ws/install/k12_description/share/k12_description/meshes/cam_1.stl\n'}
+[3.574680] (k12_description) StdoutLine: {'line': b'-- Symlinking: /home/vijay/roverr_ws/install/k12_description/share/k12_description/meshes/gps_1.stl\n'}
+[3.583183] (k12_description) StdoutLine: {'line': b'-- Symlinking: /home/vijay/roverr_ws/install/k12_description/share/k12_description/meshes/imu_1.stl\n'}
+[3.592116] (k12_description) StdoutLine: {'line': b'-- Symlinking: /home/vijay/roverr_ws/install/k12_description/share/k12_description/meshes/left_back_1.stl\n'}
+[3.602116] (k12_description) StdoutLine: {'line': b'-- Symlinking: /home/vijay/roverr_ws/install/k12_description/share/k12_description/meshes/left_front_1.stl\n'}
+[3.611195] (-) TimerEvent: {}
+[3.612244] (k12_description) StdoutLine: {'line': b'-- Symlinking: /home/vijay/roverr_ws/install/k12_description/share/k12_description/meshes/lidar_1.stl\n'}
+[3.621338] (k12_description) StdoutLine: {'line': b'-- Symlinking: /home/vijay/roverr_ws/install/k12_description/share/k12_description/meshes/right_back_1.stl\n'}
+[3.629160] (k12_description) StdoutLine: {'line': b'-- Symlinking: /home/vijay/roverr_ws/install/k12_description/share/k12_description/meshes/right_front_1.stl\n'}
+[3.636020] (k12_description) StdoutLine: {'line': b'-- Symlinking: /home/vijay/roverr_ws/install/k12_description/share/k12_description/urdf/k12.gazebo\n'}
+[3.646484] (k12_description) StdoutLine: {'line': b'-- Symlinking: /home/vijay/roverr_ws/install/k12_description/share/k12_description/urdf/k12.trans\n'}
+[3.656641] (k12_description) StdoutLine: {'line': b'-- Symlinking: /home/vijay/roverr_ws/install/k12_description/share/k12_description/urdf/k12.xacro\n'}
+[3.663200] (k12_description) StdoutLine: {'line': b'-- Symlinking: /home/vijay/roverr_ws/install/k12_description/share/k12_description/urdf/materials.xacro\n'}
+[3.670066] (k12_description) StdoutLine: {'line': b'-- Symlinking: /home/vijay/roverr_ws/install/k12_description/share/k12_description/config/mapper_params_online_async.yaml\n'}
+[3.676104] (k12_description) StdoutLine: {'line': b'-- Symlinking: /home/vijay/roverr_ws/install/k12_description/share/ament_index/resource_index/package_run_dependencies/k12_description\n'}
+[3.681089] (k12_description) StdoutLine: {'line': b'-- Symlinking: /home/vijay/roverr_ws/install/k12_description/share/ament_index/resource_index/parent_prefix_path/k12_description\n'}
+[3.687281] (k12_description) StdoutLine: {'line': b'-- Symlinking: /home/vijay/roverr_ws/install/k12_description/share/k12_description/environment/ament_prefix_path.sh\n'}
+[3.696326] (k12_description) StdoutLine: {'line': b'-- Symlinking: /home/vijay/roverr_ws/install/k12_description/share/k12_description/environment/ament_prefix_path.dsv\n'}
+[3.701972] (k12_description) StdoutLine: {'line': b'-- Symlinking: /home/vijay/roverr_ws/install/k12_description/share/k12_description/environment/path.sh\n'}
+[3.709384] (k12_description) StdoutLine: {'line': b'-- Symlinking: /home/vijay/roverr_ws/install/k12_description/share/k12_description/environment/path.dsv\n'}
+[3.711270] (-) TimerEvent: {}
+[3.717676] (k12_description) StdoutLine: {'line': b'-- Symlinking: /home/vijay/roverr_ws/install/k12_description/share/k12_description/local_setup.bash\n'}
+[3.722610] (k12_description) StdoutLine: {'line': b'-- Symlinking: /home/vijay/roverr_ws/install/k12_description/share/k12_description/local_setup.sh\n'}
+[3.728278] (k12_description) StdoutLine: {'line': b'-- Symlinking: /home/vijay/roverr_ws/install/k12_description/share/k12_description/local_setup.zsh\n'}
+[3.733775] (k12_description) StdoutLine: {'line': b'-- Symlinking: /home/vijay/roverr_ws/install/k12_description/share/k12_description/local_setup.dsv\n'}
+[3.740254] (k12_description) StdoutLine: {'line': b'-- Symlinking: /home/vijay/roverr_ws/install/k12_description/share/k12_description/package.dsv\n'}
+[3.745913] (k12_description) StdoutLine: {'line': b'-- Symlinking: /home/vijay/roverr_ws/install/k12_description/share/ament_index/resource_index/packages/k12_description\n'}
+[3.752258] (k12_description) StdoutLine: {'line': b'-- Symlinking: /home/vijay/roverr_ws/install/k12_description/share/k12_description/cmake/k12_descriptionConfig.cmake\n'}
+[3.757310] (k12_description) StdoutLine: {'line': b'-- Symlinking: /home/vijay/roverr_ws/install/k12_description/share/k12_description/cmake/k12_descriptionConfig-version.cmake\n'}
+[3.764880] (k12_description) StdoutLine: {'line': b'-- Symlinking: /home/vijay/roverr_ws/install/k12_description/share/k12_description/package.xml\n'}
+[3.773262] (k12_description) CommandEnded: {'returncode': 0}
+[3.788792] (k12_description) JobEnded: {'identifier': 'k12_description', 'rc': 0}
+[3.789115] (-) EventReactorShutdown: {}

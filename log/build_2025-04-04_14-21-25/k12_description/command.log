@@ -1,0 +1,6 @@
+Invoking command in '/home/vijay/roverr_ws/build/k12_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/vijay/roverr_ws/src/k12_description -DCMAKE_INSTALL_PREFIX=/home/vijay/roverr_ws/install/k12_description
+Invoked command in '/home/vijay/roverr_ws/build/k12_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/vijay/roverr_ws/src/k12_description -DCMAKE_INSTALL_PREFIX=/home/vijay/roverr_ws/install/k12_description
+Invoking command in '/home/vijay/roverr_ws/build/k12_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/vijay/roverr_ws/build/k12_description -- -j12 -l12
+Invoked command in '/home/vijay/roverr_ws/build/k12_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/vijay/roverr_ws/build/k12_description -- -j12 -l12
+Invoking command in '/home/vijay/roverr_ws/build/k12_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/vijay/roverr_ws/build/k12_description
+Invoked command in '/home/vijay/roverr_ws/build/k12_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/vijay/roverr_ws/build/k12_description

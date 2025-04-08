@@ -1,0 +1,248 @@
+<?xml version="1.0" ?>
+<robot name="k12" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+<xacro:include filename="$(find k12_description)/urdf/materials.xacro" />
+<xacro:include filename="$(find k12_description)/urdf/k12.trans" />
+<xacro:include filename="$(find k12_description)/urdf/k12.gazebo" />
+<link name="base_link">
+  <inertial>
+    <origin xyz="-0.00013691109622374558 -0.07989504286005775 0.2649345304169413" rpy="0 0 0"/>
+    <mass value="1416.8531948928908"/>
+    <inertia ixx="54.990138" iyy="151.002884" izz="190.030645" ixy="-0.001124" iyz="0.009656" ixz="0.015684"/>
+  </inertial>
+  <visual>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find k12_description)/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find k12_description)/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="left_front_1">
+  <inertial>
+    <origin xyz="-1.6948914188796849e-07 -0.04999999999999993 5.551115123125783e-17" rpy="0 0 0"/>
+    <mass value="98.6460093227195"/>
+    <inertia ixx="1.068665" iyy="1.97292" izz="1.068665" ixy="0.0" iyz="0.0" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.379738 0.435 -0.2" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find k12_description)/meshes/left_front_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.379738 0.435 -0.2" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find k12_description)/meshes/left_front_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="left_back_1">
+  <inertial>
+    <origin xyz="3.5366754724819316e-07 -0.04999999999999993 8.326672684688674e-17" rpy="0 0 0"/>
+    <mass value="98.64600932271955"/>
+    <inertia ixx="1.068665" iyy="1.97292" izz="1.068665" ixy="0.0" iyz="0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.373496 0.435 -0.2" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find k12_description)/meshes/left_back_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.373496 0.435 -0.2" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find k12_description)/meshes/left_back_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="right_back_1">
+  <inertial>
+    <origin xyz="2.803661957040404e-07 0.04999999999999999 -1.1102230246251565e-16" rpy="0 0 0"/>
+    <mass value="98.6460093227195"/>
+    <inertia ixx="1.068665" iyy="1.97292" izz="1.068665" ixy="0.0" iyz="0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.373538 -0.275 -0.2" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find k12_description)/meshes/right_back_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.373538 -0.275 -0.2" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find k12_description)/meshes/right_back_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="right_front_1">
+  <inertial>
+    <origin xyz="-4.0231553505298834e-07 0.04999999999999999 -8.326672684688674e-17" rpy="0 0 0"/>
+    <mass value="98.64600932271946"/>
+    <inertia ixx="1.068665" iyy="1.97292" izz="1.068665" ixy="0.0" iyz="-0.0" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.372187 -0.275 -0.2" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find k12_description)/meshes/right_front_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.372187 -0.275 -0.2" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find k12_description)/meshes/right_front_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="lidar_1">
+  <inertial>
+    <origin xyz="5.551115123125783e-17 1.3877787807814457e-17 0.024999999999999967" rpy="0 0 0"/>
+    <mass value="6.9360475305037115"/>
+    <inertia ixx="0.011199" iyy="0.011199" izz="0.019508" ixy="0.0" iyz="0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.5 0.08 -0.445" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find k12_description)/meshes/lidar_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.5 0.08 -0.445" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find k12_description)/meshes/lidar_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="cam_1">
+  <inertial>
+    <origin xyz="-0.02000000000000013 2.7755575615628914e-17 0.0" rpy="0 0 0"/>
+    <mass value="1.5699999999999998"/>
+    <inertia ixx="0.001635" iyy="0.000536" izz="0.001518" ixy="-0.0" iyz="0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.59 0.08 -0.32" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find k12_description)/meshes/cam_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.59 0.08 -0.32" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find k12_description)/meshes/cam_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="imu_1">
+  <inertial>
+    <origin xyz="0.0 0.0 0.0025000000000000022" rpy="0 0 0"/>
+    <mass value="0.0628"/>
+    <inertia ixx="9e-06" iyy="9e-06" izz="1.7e-05" ixy="0.0" iyz="0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.0 0.08 -0.4" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find k12_description)/meshes/imu_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.0 0.08 -0.4" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find k12_description)/meshes/imu_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="gps_1">
+  <inertial>
+    <origin xyz="0.0 0.0 0.0025000000000000577" rpy="0 0 0"/>
+    <mass value="0.1972920186454389"/>
+    <inertia ixx="7.9e-05" iyy="7.9e-05" izz="0.000158" ixy="-0.0" iyz="0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.45 0.08 -0.4" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find k12_description)/meshes/gps_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.45 0.08 -0.4" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find k12_description)/meshes/gps_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<joint name="Revolute 17" type="continuous">
+  <origin xyz="-0.379738 -0.435 0.2" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="left_front_1"/>
+  <axis xyz="0.0 1.0 0.0"/>
+</joint>
+
+<joint name="Revolute 18" type="continuous">
+  <origin xyz="0.373496 -0.435 0.2" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="left_back_1"/>
+  <axis xyz="0.0 1.0 0.0"/>
+</joint>
+
+<joint name="Revolute 19" type="continuous">
+  <origin xyz="0.373538 0.275 0.2" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="right_back_1"/>
+  <axis xyz="0.0 1.0 0.0"/>
+</joint>
+
+<joint name="Revolute 20" type="continuous">
+  <origin xyz="-0.372187 0.275 0.2" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="right_front_1"/>
+  <axis xyz="0.0 1.0 0.0"/>
+</joint>
+
+<joint name="Rigid 21" type="fixed">
+  <origin xyz="-0.5 -0.08 0.445" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="lidar_1"/>
+</joint>
+
+<joint name="Rigid 22" type="fixed">
+  <origin xyz="-0.59 -0.08 0.32" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="cam_1"/>
+</joint>
+
+<joint name="Rigid 23" type="fixed">
+  <origin xyz="0.0 -0.08 0.4" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="imu_1"/>
+</joint>
+
+<joint name="Rigid 24" type="fixed">
+  <origin xyz="0.45 -0.08 0.4" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="gps_1"/>
+</joint>
+
+</robot>

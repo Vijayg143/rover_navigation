@@ -1,0 +1,156 @@
+[0.000000] (-) TimerEvent: {}
+[0.000161] (k12_description) JobQueued: {'identifier': 'k12_description', 'dependencies': OrderedDict()}
+[0.000245] (k12_description) JobStarted: {'identifier': 'k12_description'}
+[0.004733] (k12_description) JobProgress: {'identifier': 'k12_description', 'progress': 'cmake'}
+[0.005016] (k12_description) Command: {'cmd': ['/usr/bin/cmake', '/home/vijay/roverr_ws/src/k12_description', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/vijay/roverr_ws/install/k12_description'], 'cwd': '/home/vijay/roverr_ws/build/k12_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'vijay'), ('LC_TIME', 'en_IN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/vijay'), ('OLDPWD', '/home/vijay/roverr_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_IN.UTF-8'), ('SYSTEMD_EXEC_PID', '1877'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/vijay/roverr_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'vijay'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vijay'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/home/vijay/rover4_ws/src/k12_description/models/'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/vijay/.cargo/bin:/home/vijay/.local/bin:/home/vijay/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/vijay:@/tmp/.ICE-unix/1847,unix/vijay:/tmp/.ICE-unix/1847'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_IN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/79664485_5da8_4d14_bbd8_8198ceb6b1e7'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_IN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.21YD42'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.104'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/vijay/roverr_ws/install/k12_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_IN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_IN.UTF-8'), ('LC_IDENTIFICATION', 'en_IN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vijay/roverr_ws/build/k12_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/vijay/roverr_ws/install/k12_description/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_IN.UTF-8'), ('LC_PAPER', 'en_IN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/vijay/roverr_ws/install/k12_description:/opt/ros/humble')]), 'shell': False}
+[0.099585] (-) TimerEvent: {}
+[0.128713] (k12_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.199719] (-) TimerEvent: {}
+[0.207711] (k12_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.214201] (k12_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.273623] (k12_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.277983] (k12_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.278194] (k12_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.278759] (k12_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.280936] (k12_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.299824] (-) TimerEvent: {}
+[0.335644] (k12_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.340696] (k12_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.340865] (k12_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.341031] (k12_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.343552] (k12_description) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.400035] (-) TimerEvent: {}
+[0.500304] (-) TimerEvent: {}
+[0.577229] (k12_description) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.600515] (-) TimerEvent: {}
+[0.626578] (k12_description) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.649861] (k12_description) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.688157] (k12_description) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.691691] (k12_description) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.698061] (k12_description) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.700674] (-) TimerEvent: {}
+[0.706834] (k12_description) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.718543] (k12_description) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.750054] (k12_description) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.752031] (k12_description) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.800769] (-) TimerEvent: {}
+[0.832576] (k12_description) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.855230] (k12_description) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.889465] (k12_description) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.896955] (k12_description) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.900901] (-) TimerEvent: {}
+[0.951822] (k12_description) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.952071] (k12_description) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.001049] (-) TimerEvent: {}
+[1.009313] (k12_description) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.010030] (k12_description) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.046602] (k12_description) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[1.056069] (k12_description) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[1.067827] (k12_description) StdoutLine: {'line': b'-- Found gazebo_ros: 3.9.0 (/opt/ros/humble/share/gazebo_ros/cmake)\n'}
+[1.075853] (k12_description) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") \n'}
+[1.076963] (k12_description) StdoutLine: {'line': b"-- Checking for module 'bullet>=2.82'\n"}
+[1.087519] (k12_description) StdoutLine: {'line': b'--   Found bullet, version 3.05\n'}
+[1.101141] (-) TimerEvent: {}
+[1.188185] (k12_description) StdoutLine: {'line': b'-- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") \n'}
+[1.201273] (-) TimerEvent: {}
+[1.260480] (k12_description) StdoutLine: {'line': b'-- Found assimp: /usr/include (found version "5.2.0") \n'}
+[1.280951] (k12_description) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[1.301477] (-) TimerEvent: {}
+[1.301750] (k12_description) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time \n'}
+[1.317362] (k12_description) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[1.323408] (k12_description) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.332585] (k12_description) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[1.334216] (k12_description) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[1.334402] (k12_description) StdoutLine: {'line': b'-- OGRE_PREFIX_WATCH changed.\n'}
+[1.338457] (k12_description) StdoutLine: {'line': b"-- Checking for module 'OGRE'\n"}
+[1.350477] (k12_description) StdoutLine: {'line': b'--   Found OGRE, version 1.9.0\n'}
+[1.398379] (k12_description) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[1.401571] (-) TimerEvent: {}
+[1.405952] (k12_description) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[1.412340] (k12_description) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[1.415791] (k12_description) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[1.415864] (k12_description) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[1.419072] (k12_description) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[1.419151] (k12_description) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[1.422379] (k12_description) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[1.422456] (k12_description) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[1.425700] (k12_description) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[1.425772] (k12_description) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[1.429050] (k12_description) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[1.429122] (k12_description) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[1.432631] (k12_description) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[1.498643] (k12_description) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.500644] (k12_description) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.2.1\n'}
+[1.500832] (k12_description) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[1.501623] (-) TimerEvent: {}
+[1.512843] (k12_description) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") \n'}
+[1.519973] (k12_description) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[1.523645] (k12_description) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[1.535527] (k12_description) StdoutLine: {'line': b'--   Found libzmq , version 4.3.4\n'}
+[1.584021] (k12_description) StdoutLine: {'line': b'-- Found ZeroMQ: TRUE (Required is at least version "4") \n'}
+[1.590150] (k12_description) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[1.601782] (-) TimerEvent: {}
+[1.603932] (k12_description) StdoutLine: {'line': b'--   Found uuid, version 2.37.2\n'}
+[1.654051] (k12_description) StdoutLine: {'line': b'-- Found UUID: TRUE  \n'}
+[1.658702] (k12_description) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[1.659288] (k12_description) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[1.673669] (k12_description) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.676700] (k12_description) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[1.686941] (k12_description) StdoutLine: {'line': b'--   Found tinyxml2, version 9.0.0\n'}
+[1.701987] (-) TimerEvent: {}
+[1.724562] (k12_description) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[1.729053] (k12_description) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[1.729887] (k12_description) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[1.730712] (k12_description) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[1.731815] (k12_description) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[1.733436] (k12_description) StdoutLine: {'line': b'-- Found DL: TRUE  \n'}
+[1.743557] (k12_description) StdoutLine: {'line': b'-- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") \n'}
+[1.744161] (k12_description) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[1.746244] (k12_description) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.14.0\n'}
+[1.746384] (k12_description) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[1.746560] (k12_description) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.749197] (k12_description) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.4.0\n'}
+[1.749333] (k12_description) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[1.802112] (-) TimerEvent: {}
+[1.815675] (k12_description) StdoutLine: {'line': b'-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  \n'}
+[1.824171] (k12_description) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[1.838753] (k12_description) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[1.885104] (k12_description) StdoutLine: {'line': b'-- Found JSONCPP: TRUE  \n'}
+[1.893028] (k12_description) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[1.902238] (-) TimerEvent: {}
+[1.911154] (k12_description) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[1.963887] (k12_description) StdoutLine: {'line': b'-- Found ZIP: TRUE  \n'}
+[1.964452] (k12_description) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[1.965163] (k12_description) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.965703] (k12_description) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[1.970899] (k12_description) StdoutLine: {'line': b'-- Gazebo version: 11.10\n'}
+[1.971204] (k12_description) StdoutLine: {'line': b"-- Checking for module 'tbb'\n"}
+[1.988010] (k12_description) StdoutLine: {'line': b'--   Found tbb, version 2021.5.0\n'}
+[2.002406] (-) TimerEvent: {}
+[2.037957] (k12_description) StdoutLine: {'line': b'-- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)\n'}
+[2.073236] (k12_description) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.12 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[2.102613] (-) TimerEvent: {}
+[2.135930] (k12_description) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.202844] (-) TimerEvent: {}
+[2.214862] (k12_description) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[2.215280] (k12_description) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.215448] (k12_description) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[2.216571] (k12_description) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.217414] (k12_description) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.219566] (k12_description) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:32 (add_executable):\n'}
+[2.219685] (k12_description) StderrLine: {'line': b'  Cannot find source file:\n'}
+[2.219758] (k12_description) StderrLine: {'line': b'\n'}
+[2.219823] (k12_description) StderrLine: {'line': b'    src/teleop_control.cpp\n'}
+[2.219882] (k12_description) StderrLine: {'line': b'\n'}
+[2.219941] (k12_description) StderrLine: {'line': b'  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h\n'}
+[2.220004] (k12_description) StderrLine: {'line': b'  .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc\n'}
+[2.220159] (k12_description) StderrLine: {'line': b'\n'}
+[2.220245] (k12_description) StderrLine: {'line': b'\x1b[0m\n'}
+[2.220311] (k12_description) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:32 (add_executable):\n'}
+[2.220373] (k12_description) StderrLine: {'line': b'  No SOURCES given to target: teleop_control\n'}
+[2.220441] (k12_description) StderrLine: {'line': b'\n'}
+[2.220503] (k12_description) StderrLine: {'line': b'\x1b[0m\n'}
+[2.220561] (k12_description) StderrLine: {'line': b'\x1b[0mCMake Generate step failed.  Build files cannot be regenerated correctly.\x1b[0m\n'}
+[2.228466] (k12_description) CommandEnded: {'returncode': 1}
+[2.248479] (k12_description) JobEnded: {'identifier': 'k12_description', 'rc': 1}
+[2.258971] (-) EventReactorShutdown: {}

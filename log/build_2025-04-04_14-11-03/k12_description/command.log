@@ -1,0 +1,2 @@
+Invoking command in '/home/vijay/roverr_ws/build/k12_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/vijay/roverr_ws/src/k12_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/vijay/roverr_ws/install/k12_description
+Invoked command in '/home/vijay/roverr_ws/build/k12_description' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/vijay/roverr_ws/src/k12_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/vijay/roverr_ws/install/k12_description

@@ -1,0 +1,128 @@
+[0.006s] Invoking command in '/home/vijay/roverr_ws/build/k12_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/vijay/roverr_ws/src/k12_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/vijay/roverr_ws/install/k12_description
+[0.129s] -- The C compiler identification is GNU 11.4.0
+[0.208s] -- The CXX compiler identification is GNU 11.4.0
+[0.214s] -- Detecting C compiler ABI info
+[0.273s] -- Detecting C compiler ABI info - done
+[0.278s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.278s] -- Detecting C compile features
+[0.279s] -- Detecting C compile features - done
+[0.281s] -- Detecting CXX compiler ABI info
+[0.335s] -- Detecting CXX compiler ABI info - done
+[0.341s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.341s] -- Detecting CXX compile features
+[0.341s] -- Detecting CXX compile features - done
+[0.343s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.577s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.626s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.650s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.688s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.691s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.698s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.707s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.718s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.750s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.752s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.832s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.855s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.889s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.897s] -- Looking for pthread.h
+[0.952s] -- Looking for pthread.h - found
+[0.952s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.009s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.010s] -- Found Threads: TRUE  
+[1.046s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.056s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.068s] -- Found gazebo_ros: 3.9.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[1.076s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[1.077s] -- Checking for module 'bullet>=2.82'
+[1.087s] --   Found bullet, version 3.05
+[1.188s] -- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+[1.260s] -- Found assimp: /usr/include (found version "5.2.0") 
+[1.281s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[1.302s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[1.317s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[1.323s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.332s] -- Searching for dependencies of ignition-math6
+[1.334s] -- Looking for OGRE...
+[1.334s] -- OGRE_PREFIX_WATCH changed.
+[1.338s] -- Checking for module 'OGRE'
+[1.350s] --   Found OGRE, version 1.9.0
+[1.398s] -- Found Ogre Ghadamon (1.9.0)
+[1.406s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[1.412s] -- Looking for OGRE_Paging...
+[1.416s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[1.416s] -- Looking for OGRE_Terrain...
+[1.419s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[1.419s] -- Looking for OGRE_Property...
+[1.422s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[1.422s] -- Looking for OGRE_RTShaderSystem...
+[1.425s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[1.426s] -- Looking for OGRE_Volume...
+[1.429s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[1.429s] -- Looking for OGRE_Overlay...
+[1.432s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[1.498s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.500s] -- Looking for ignition-transport8 -- found version 8.2.1
+[1.501s] -- Searching for dependencies of ignition-transport8
+[1.513s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[1.520s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[1.523s] -- Checking for module 'libzmq >= 4'
+[1.535s] --   Found libzmq , version 4.3.4
+[1.584s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[1.590s] -- Checking for module 'uuid'
+[1.604s] --   Found uuid, version 2.37.2
+[1.654s] -- Found UUID: TRUE  
+[1.659s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.659s] -- Searching for dependencies of ignition-msgs5
+[1.674s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.677s] -- Checking for module 'tinyxml2'
+[1.687s] --   Found tinyxml2, version 9.0.0
+[1.725s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.729s] -- Looking for ignition-common3 -- found version 3.14.0
+[1.730s] -- Searching for dependencies of ignition-common3
+[1.731s] -- Looking for dlfcn.h - found
+[1.732s] -- Looking for libdl - found
+[1.733s] -- Found DL: TRUE  
+[1.743s] -- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") 
+[1.744s] -- Searching for <ignition-common3> component [graphics]
+[1.746s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[1.746s] -- Searching for dependencies of ignition-common3-graphics
+[1.746s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.749s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[1.749s] -- Searching for dependencies of ignition-fuel_tools4
+[1.816s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[1.824s] -- Checking for module 'jsoncpp'
+[1.839s] --   Found jsoncpp, version 1.9.5
+[1.885s] -- Found JSONCPP: TRUE  
+[1.893s] -- Checking for module 'libzip'
+[1.911s] --   Found libzip, version 1.7.3
+[1.964s] -- Found ZIP: TRUE  
+[1.964s] -- Looking for ignition-common3 -- found version 3.14.0
+[1.965s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.966s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.971s] -- Gazebo version: 11.10
+[1.971s] -- Checking for module 'tbb'
+[1.988s] --   Found tbb, version 2021.5.0
+[2.038s] -- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)
+[2.073s] -- Found tf2_ros: 0.25.12 (/opt/ros/humble/share/tf2_ros/cmake)
+[2.136s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.215s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.215s] -- Added test 'lint_cmake' to check CMake code style
+[2.215s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.216s] -- Added test 'xmllint' to check XML markup files
+[2.217s] -- Configuring done
+[2.219s] [31mCMake Error at CMakeLists.txt:32 (add_executable):
+[2.219s]   Cannot find source file:
+[2.220s] 
+[2.220s]     src/teleop_control.cpp
+[2.220s] 
+[2.220s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h
+[2.220s]   .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc
+[2.220s] 
+[2.220s] [0m
+[2.220s] [31mCMake Error at CMakeLists.txt:32 (add_executable):
+[2.220s]   No SOURCES given to target: teleop_control
+[2.220s] 
+[2.220s] [0m
+[2.220s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[2.228s] Invoked command in '/home/vijay/roverr_ws/build/k12_description' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/vijay/roverr_ws/src/k12_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/vijay/roverr_ws/install/k12_description
